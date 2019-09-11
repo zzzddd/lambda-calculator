@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    background: tomato;
+    width: 500px;
+    padding: 30px;
+    border-radius: 10px;
+    border: solid 2px grey;
+}
+
+.display {
+    color: white;
+    font-size: 3rem;
+    background: slategrey;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.AllButtons {
+    display: flex;
+    margin: 10px;
+}
+
+.SpecialsAndNumbers {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+}
+
+.operators {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    font-size: 3rem;
+    padding: 25px;
+    margin: 5px;
+    border-radius: 60px;
+    outline: none;
+    border:  1px solid black;
+    width: 100px;
+
+}
