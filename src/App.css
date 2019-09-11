@@ -1,48 +1,60 @@
 .container {
-    display: flex;
-    justify-content: center;
+    background-color: #c00025;
+    width: 100%;
+    max-width: 550px;
+    border-radius: 15px;
+    border: 2px solid grey;
+    padding-bottom: 25px;
 }
 
-.App {
+/* .App {
     background: tomato;
     width: 500px;
     padding: 30px;
     border-radius: 10px;
     border: solid 2px grey;
-}
+} */
 
 .display {
-    color: white;
-    font-size: 3rem;
-    background: slategrey;
+    margin-top: 25px;
+    height: 100px;
+    width: 450px;
     border-radius: 50px;
-    text-align: center;
-}
+    color: white;
+    background-color: #322c2d;
+    box-shadow: 1px 1px #322c2d;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 8%;
+    font-size: 5.0rem;
+  }
 
-.AllButtons {
+/* .AllButtons {
     display: flex;
     margin: 10px;
-}
+} */
 
-.SpecialsAndNumbers {
+/* .SpecialsAndNumbers {
     display: flex;
     flex-direction: column;
     padding: 0;
     align-items: center;
-}
+} */
 
-.operators {
+/* .operators {
     display: flex;
     flex-direction: column;
-}
+} */
 
 button {
     font-size: 3rem;
     padding: 25px;
     margin: 5px;
-    border-radius: 60px;
+    border-radius: 40px;
     outline: none;
     border:  1px solid black;
     width: 100px;
 
 }
+
